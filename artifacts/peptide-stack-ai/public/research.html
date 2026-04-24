@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Peptide Stack AI</title>
+  <meta name="description" content="Discover how AI-powered peptide stack design is transforming research in 2026. Learn about BPC-157, TB-500, CJC-1295, dosage protocols, and how Peptide Stack AI helps researchers build optimized stacks." />
+  <link rel="canonical" href="https://peptidestackai.com/research.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Research | Peptide Stack AI" />
+  <meta property="og:description" content="Discover how AI-powered peptide stack design is transforming research in 2026. Learn about BPC-157, TB-500, CJC-1295, dosage protocols, and how Peptide Stack AI helps researchers build optimized stacks." />
+  <meta property="og:url" content="https://peptidestackai.com/research.html" />
+  <meta property="og:image" content="https://peptidestackai.com/images/Peptide_Stack_AI_Icon_4K.png" />
+
+  <!-- Security meta tags -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=()" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https:; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+  <!-- Schema: Blog -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Peptide Stack AI Research",
+    "description": "Research insights, guides, and updates from the Peptide Stack AI team.",
+    "url": "https://peptidestackai.com/research.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Peptide Stack AI",
+      "url": "https://peptidestackai.com"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-primary: #0A0A0F;
+      --bg-secondary: #0F0F1A;
+      --bg-card: rgba(255,255,255,0.04);
+      --bg-card-hover: rgba(255,255,255,0.07);
+      --border-subtle: rgba(255,255,255,0.08);
+      --border-glow: rgba(0,240,255,0.3);
+      --cyan: #00F0FF;
+      --cyan-dim: rgba(0,240,255,0.12);
+      --cyan-glow: rgba(0,240,255,0.08);
+      --purple: #8B5CF6;
+      --purple-dim: rgba(139,92,246,0.15);
+      --text-primary: #FFFFFF;
+      --text-secondary: #A0A0B8;
+      --text-muted: #606078;
+      --font-heading: 'Space Grotesk', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --radius: 12px;
+      --radius-lg: 20px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.6;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 10% 0%, rgba(0,240,255,0.06) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 90% 80%, rgba(139,92,246,0.06) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: relative;
+      background: rgba(10,10,15,0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+      background: linear-gradient(135deg, var(--cyan-dim), var(--purple-dim));
+      border: 1px solid var(--border-glow);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .logo-icon svg { width: 20px; height: 20px; stroke: var(--cyan); }
+
+    .logo-text {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    nav { display: flex; gap: 24px; }
+
+    nav a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    nav a:hover, nav a.active { color: var(--cyan); }
+
+    /* ── LAYOUT ── */
+    .page-wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 72px 0 56px;
+      text-align: center;
+    }
+
+    .page-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--cyan-dim);
+      border: 1px solid var(--border-glow);
+      border-radius: 100px;
+      padding: 6px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--cyan);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .page-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 8px var(--cyan);
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+    }
+
+    .hero h1 .highlight { color: var(--cyan); }
+
+    .hero p {
+      font-size: 18px;
+      color: var(--text-secondary);
+      max-width: 580px;
+      margin: 0 auto;
+      line-height: 1.65;
+    }
+
+    /* ── BLOG GRID ── */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+      padding-bottom: 80px;
+    }
+
+    .blog-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: border-color 0.25s, background 0.25s, transform 0.2s;
+      text-decoration: none;
+    }
+
+    .blog-card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-glow);
+      transform: translateY(-2px);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-tag {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cyan);
+      background: var(--cyan-dim);
+      border: 1px solid var(--border-glow);
+      border-radius: 100px;
+      padding: 3px 10px;
+    }
+
+    .card-date {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .blog-card h2 {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    .blog-card p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      flex: 1;
+    }
+
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--cyan);
+      text-decoration: none;
+      margin-top: 4px;
+      transition: gap 0.2s;
+    }
+
+    .read-more:hover { gap: 10px; }
+
+    .read-more svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--cyan);
+    }
+
+    /* ── SECTION LABELS ── */
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    /* ── PINNED CARD ── */
+    .pinned-section {
+      margin-bottom: 48px;
+    }
+
+    .pinned-card {
+      position: relative;
+      background: linear-gradient(135deg, rgba(0,240,255,0.05) 0%, rgba(0,240,255,0.02) 60%, rgba(139,92,246,0.04) 100%);
+      border: 1px solid #00F0FF;
+      border-radius: var(--radius-lg);
+      padding: 36px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: 0 0 20px rgba(0,240,255,0.3), 0 0 60px rgba(0,240,255,0.07), inset 0 1px 0 rgba(0,240,255,0.15);
+      transition: box-shadow 0.3s, transform 0.2s;
+    }
+
+    .pinned-card:hover {
+      box-shadow: 0 0 32px rgba(0,240,255,0.45), 0 0 80px rgba(0,240,255,0.1), inset 0 1px 0 rgba(0,240,255,0.2);
+      transform: translateY(-2px);
+    }
+
+    .pinned-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #00F0FF;
+      color: #0A0A0F;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      width: fit-content;
+    }
+
+    .pinned-card h2 {
+      font-family: var(--font-heading);
+      font-size: clamp(20px, 2.5vw, 26px);
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.25;
+      letter-spacing: -0.015em;
+      max-width: 800px;
+    }
+
+    .pinned-card > p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 760px;
+    }
+
+    .pinned-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--cyan);
+      color: #0A0A0F;
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 700;
+      padding: 12px 24px;
+      border-radius: 100px;
+      text-decoration: none;
+      width: fit-content;
+      margin-top: 4px;
+      transition: opacity 0.2s, transform 0.2s, gap 0.2s;
+      letter-spacing: 0.01em;
+    }
+
+    .pinned-cta:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+      gap: 12px;
+    }
+
+    .pinned-cta svg {
+      width: 14px;
+      height: 14px;
+      stroke: #0A0A0F;
+    }
+
+    /* ── LATEST RESEARCH LABEL ── */
+    .latest-section-label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .latest-section-label span {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .latest-section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border-subtle);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--bg-secondary);
+      padding: 40px 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .footer-logo-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 7px;
+      background: linear-gradient(135deg, var(--cyan-dim), var(--purple-dim));
+      border: 1px solid var(--border-glow);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-logo-icon svg { width: 16px; height: 16px; stroke: var(--cyan); }
+
+    .footer-logo-text {
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .footer-nav {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px 0;
+      justify-content: center;
+    }
+
+    .footer-nav a {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-decoration: none;
+      padding: 0 14px;
+      transition: color 0.2s;
+    }
+
+    .footer-nav a:hover { color: var(--cyan); }
+
+    .footer-divider {
+      width: 1px;
+      height: 14px;
+      background: var(--border-subtle);
+    }
+
+    .footer-copy {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 640px) {
+      nav { display: none; }
+      .blog-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo-group" aria-label="Peptide Stack AI home">
+        <img src="/images/Peptide_Stack_AI_Icon_4K.png" alt="Peptide Stack AI Logo" width="40" height="40" style="border-radius: 10px; flex-shrink: 0;" />
+        <span class="logo-text">Peptide Stack AI</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="/">Home</a>
+        <a href="/research.html" class="active">Research</a>
+        <a href="/calculator.html">Calculator</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/support.html">Support</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+      </nav>
+      <a href="https://apps.apple.com/app/peptide-stack-ai/id6762082608" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:#10B981;color:#fff;font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:600;border-radius:8px;text-decoration:none;white-space:nowrap;flex-shrink:0;" aria-label="Download Peptide Stack AI on the App Store">
+        <svg viewBox="0 0 384 512" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        Download App
+      </a>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <section class="hero">
+      <div class="page-badge" aria-label="Section label">Research</div>
+      <h1>Peptide Research <span class="highlight">Insights</span></h1>
+      <p>Expert guides, protocol breakdowns, and AI-powered research tools for scientists studying synthetic peptides.</p>
+    </section>
+
+    <main>
+
+      <!-- ═══ PINNED / ESSENTIAL READING ═══ -->
+      <section class="pinned-section" aria-label="Essential Reading">
+        <div class="section-label">📌 Essential Reading</div>
+
+        <article class="pinned-card">
+          <span class="pinned-badge">📌 Essential Reading</span>
+
+          <h2>The Researcher's Complete Guide to Peptide Safety, Storage &amp; Handling</h2>
+
+          <p>Before you run any peptide research protocol, you need to get the fundamentals right. This complete guide covers proper storage of lyophilized and reconstituted peptides, step-by-step reconstitution technique using bacteriostatic water, syringe drawing and air bubble elimination, sanitation and contamination prevention, PPE requirements, sharps disposal, and the methodical mindset that separates rigorous researchers from casual experimenters.</p>
+
+          <a href="/research/peptide-safety-handling-guide.html" class="pinned-cta" aria-label="Read the full Peptide Safety, Storage and Handling guide">
+            Read the Guide
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+      </section>
+
+      <!-- ═══ LATEST RESEARCH ═══ -->
+      <div class="latest-section-label">
+        <span>Latest Research</span>
+      </div>
+
+      <div class="blog-grid" role="list">
+
+        <!-- ADD NEW POSTS AT THE TOP OF THIS GRID. DO NOT ADD TO THE BOTTOM. -->
+        <!-- POST-CARD:cjc-1295-ipamorelin-stack-research-guide -->
+        <article class="blog-card" role="listitem">
+          <div class="card-meta">
+            <span class="card-tag">RESEARCH GUIDE</span>
+            <span class="card-date">April 24, 2026</span>
+            <span class="card-read-time" style="font-size:12px;color:#606078;margin-left:6px;">11 min read</span>
+          </div>
+          <h2>CJC-1295 and Ipamorelin Stack Research Guide: Synergistic GH Secretagogue Protocols</h2>
+          <p>The CJC-1295 and Ipamorelin stack is one of the most researched peptide combinations in growth hormone secretagogue science. This guide covers mechanisms of action, synergistic effects, dosage ranges from published literature, and research protocols for scientific investigation.</p>
+          <a href="/research/cjc-1295-ipamorelin-stack-research-guide.html" class="read-more" aria-label="Read full article: CJC-1295 and Ipamorelin Stack Research Guide: Synergistic GH Secretagogue Protocols">
+            Read More
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+        <!-- /POST-CARD:cjc-1295-ipamorelin-stack-research-guide -->
+
+        <!-- POST-CARD:bpc-157-research-guide-mechanisms-protocols-dosage -->
+        <article class="blog-card" role="listitem">
+          <div class="card-meta">
+            <span class="card-tag">RESEARCH GUIDE</span>
+            <span class="card-date">April 22, 2026</span>
+            <span class="card-read-time" style="font-size:12px;color:#606078;margin-left:6px;">9 min read</span>
+          </div>
+          <h2>BPC-157 Research Guide: Mechanisms, Protocols, and Dosage</h2>
+          <p>This BPC-157 research guide covers the peptide&#39;s mechanisms of action, preclinical dosage ranges, and research protocols documented in peer-reviewed literature. Whether you&#39;re exploring tissue repair, angiogenesis, or neuroprotection, this guide provides a structured foundation for scientific inquiry.</p>
+          <a href="/research/bpc-157-research-guide-mechanisms-protocols-dosage.html" class="read-more" aria-label="Read full article: BPC-157 Research Guide: Mechanisms, Protocols, and Dosage">
+            Read More
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+        <!-- /POST-CARD:bpc-157-research-guide-mechanisms-protocols-dosage -->
+
+        <!-- POST-CARD:ipamorelin-growth-hormone-research-protocols -->
+        <article class="blog-card" role="listitem">
+          <div class="card-meta">
+            <span class="card-tag">RESEARCH GUIDE</span>
+            <span class="card-date">April 16, 2026</span>
+          </div>
+          <h2>Ipamorelin and Growth Hormone Research Protocols: A Comprehensive Scientific Overview</h2>
+          <p>Ipamorelin is a selective growth hormone secretagogue and ghrelin receptor agonist that has become a prominent subject in peptide research. This guide explores its mechanisms, research protocols, and scientific findings for licensed researchers and medical professionals seeking a structured overview of current investigative approaches.</p>
+          <a href="/research/ipamorelin-growth-hormone-research-protocols.html" class="read-more" aria-label="Read full article: Ipamorelin and Growth Hormone Research Protocols: A Comprehensive Scientific Overview">
+            Read More
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+        <!-- /POST-CARD:ipamorelin-growth-hormone-research-protocols -->
+
+        <!-- Post 3 – Most recent -->
+        <article class="blog-card" role="listitem">
+          <div class="card-meta">
+            <span class="card-tag">Safety Guide</span>
+            <span class="card-date">April 15, 2026</span>
+          </div>
+          <h2>The Researcher's Complete Guide to Peptide Safety, Storage &amp; Handling</h2>
+          <p>Before you run any peptide research protocol, you need to get the fundamentals right. This complete guide covers storage, reconstitution, syringe handling, sanitation, and everything you need to approach this field safely and methodically.</p>
+          <a href="/research/peptide-safety-handling-guide.html" class="read-more" aria-label="Read full article: The Researcher's Complete Guide to Peptide Safety, Storage and Handling">
+            Read More
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="blog-card" role="listitem">
+          <div class="card-meta">
+            <span class="card-tag">Biohacking</span>
+            <span class="card-date">April 15, 2026</span>
+          </div>
+          <h2>The Silicon Valley Peptide Stack: What Tech's Biohackers Are Actually Researching in 2026</h2>
+          <p>From Epitalon for sleep to Retatrutide for focus, Silicon Valley's biohacking elite are building peptide stacks unlike anything seen before. Here's what the research says.</p>
+          <a href="/research/silicon-valley-peptides.html" class="read-more" aria-label="Read full article: The Silicon Valley Peptide Stack">
+            Read More
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+
+        <!-- Post 1 – Oldest -->
+        <article class="blog-card" role="listitem">
+          <div class="card-meta">
+            <span class="card-tag">Research Guide</span>
+            <span class="card-date">April 15, 2026</span>
+          </div>
+          <h2>The Complete Guide to Peptide Research: What Scientists Need to Know in 2026</h2>
+          <p>Peptide research has experienced a dramatic surge in scientific interest. From tissue repair to cognitive enhancement, learn how AI-powered tools are transforming how research stacks are designed.</p>
+          <a href="/research/peptide-research-guide.html" class="read-more" aria-label="Read full article: The Complete Guide to Peptide Research">
+            Read More
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <a href="/" class="footer-logo" aria-label="Peptide Stack AI home">
+        <img src="/images/Peptide_Stack_AI_Icon_4K.png" alt="Peptide Stack AI Logo" width="32" height="32" style="border-radius: 8px; flex-shrink: 0;" />
+        <span class="footer-logo-text">Peptide Stack AI</span>
+      </a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <div class="footer-divider"></div>
+        <a href="/research.html">Research</a>
+        <div class="footer-divider"></div>
+        <a href="/calculator.html">Calculator</a>
+        <div class="footer-divider"></div>
+        <a href="/pricing.html">Pricing</a>
+        <div class="footer-divider"></div>
+        <a href="/support.html">Support</a>
+        <div class="footer-divider"></div>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+      </nav>
+      <p class="footer-copy">© 2026 Peptide Stack AI. All rights reserved. For research use only. Not medical advice.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
